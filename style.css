@@ -206,12 +206,18 @@ p{
         height: 10%;
     }
 }
-@media (min-width: 344px) and (max-width: 390px){
+@media (min-width: 320px) and (max-width: 390px){
+    .home{
+        height: 94vh;
+    }
     .main h1{
         font-size: 1.2rem;
     }
     .main h3{
         font-size: 0.7rem;
+    }
+    .nav{
+        height: 57%;
     }
     .links a{
         font-size: 1rem;
@@ -223,6 +229,14 @@ p{
     }
     .logo{
         width: 40%;
+        height: 100%;
+    }
+    .main{
+        margin-bottom: 30%;
+    }
+    footer{
+        margin-bottom: 0rem;
+        margin-top: 90%;
     }
 }
 @media (min-width: 389px) and (max-width: 411px){
@@ -254,7 +268,6 @@ p{
     }
     footer{
         margin-bottom: 0%;
-        margin-top: auto;
     }
     .main{
         margin-bottom: 40%;
