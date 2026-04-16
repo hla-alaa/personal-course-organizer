@@ -127,6 +127,20 @@ footer{
     align-items: center;
     flex-direction: column;
 }
+@media (min-width:300px) and (max-width: 369px) {
+    .head{
+        font-size: 0.43rem;
+    }
+    .header{
+        font-size: 1.3rem;
+    }
+    .text{
+        margin-top: 2px;
+    }
+    form{
+        margin-bottom: 10px;
+        margin-top: 0rem;
+    }
 @media (min-width: 370px) and (max-width: 390px){
     .contact_us{
         height: 90vh;

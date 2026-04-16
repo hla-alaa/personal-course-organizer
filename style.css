@@ -249,9 +249,15 @@ p{
     }
 }
 @media (min-width: 412px) and (max-width: 415px) {
+    .home{
+        height: 100vh;
+    }
     footer{
         margin-bottom: 0%;
         margin-top: auto;
+    }
+    .main{
+        margin-bottom: 40%;
     }
     .home{
         height: 90vh;
